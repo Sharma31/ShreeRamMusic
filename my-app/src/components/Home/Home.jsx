@@ -37,8 +37,8 @@ function Home() {
       <div id="aboutus">
       
       <div className='parah3'>
-      <h1>ABOUT US</h1>
-      <h3>LEARN MUSIC WITH US</h3>
+      <h3>ABOUT US</h3>
+      <h1>LEARN MUSIC WITH US</h1>
       
        <p>This academy was established  in 2015. The aim of the organization is to prepare musicians and promote music and provide them a platform and encourage them.institution provide facility to give music exam from Akhil Bhartiya Gandharv Mahavidyalaya Mandal (Mumbai University) .
       Here Classical Music light Music, and instruments tabla ,dholak, harmonium piano, synthesizer, guitar violin is taught .and provides facility to sit in music diploma examination from Akhil Bhartiya Gandharv Mahavidyalaya Mandal in all subjects.<br></br>Why Choose SHREE RAM MUSIC ACADEMY? <br></br>
@@ -65,11 +65,14 @@ function Home() {
             {/* <img src='./images/coursepagebg.png' alt='' /> */}
          
           <div id="coursename">
-            <div className="coursename"></div>
-         <h1>OUR COURSES </h1>
-          </div>
-      
-      <div className="maincoursepage">
+            <div className="coursename">
+        
+         </div>
+         
+      <div className="ourcourseheading">
+        <h2>OUR COURSE</h2>
+      </div>
+       <div className="maincoursepage">
       <div class="flex-container">
   <div className="course1">
     <img src="./images/back.jpg" alt="" /> 
@@ -102,8 +105,8 @@ function Home() {
 
          </div>
           </div>
-           <div>
-          <div id="ourstudents">
+          
+      {/*    <div id="ourstudents">
             <div className="ourstudentdetails"></div>
          <h1>OUR STUDENTS </h1>
           </div>
@@ -148,11 +151,71 @@ function Home() {
       <div id="contact">
         <div className="contactus">
               <h1>CONTACT US</h1>
+        </div>*/}
+        <div id="testimonials"></div>
+        <div className="testimonialheading">
+          <h2>TESTIMONIAL</h2>
+          <h2>Let's start your JOURNEY of MUSIC with US</h2>
         </div>
-        
+       <div className="testimonialimage">
+       <img src="./images/testimonialimage.png" alt="" />
+      </div> 
+
+      <div className="testimonialcontent">
+        <p>Learn about music theory, history, and instruments.<br /> Learn about music theory, history, and instruments.Learn about music theory, history, and instruments.<br /></p>
+      </div>
 
       </div>
+      <div className="studentfeedbackimage1">
+        <img src="./images/about.jpg" alt="" />
       </div>
+      <div className="studentfeedback1">
+      <b> <p>NAME - xyz AGE - xyz COURSE DETAILS - xyz <br />  FEEDBACK - xyz</p></b>
+      </div>
+
+      <div className="studentfeedbackimage2">
+        <img src="./images/about.jpg" alt="" />
+      </div>
+      <div className="studentfeedback2">
+       <b> <p>NAME - xyz AGE - xyz COURSE DETAILS - xyz <br />  FEEDBACK - xyz</p></b>
+      </div>
+
+      <div className="studentfeedbackimage3">
+        <img src="./images/about.jpg" alt="" />
+      </div>
+      <div className="studentfeedback3">
+      <b> <p>NAME - xyz AGE - xyz COURSE DETAILS - xyz <br />  FEEDBACK - xyz</p></b>
+      </div>
+        <div id="contact"> 
+        <div className="contactheading">
+          <h5>CONTACT US</h5>
+          <h3>let's start your music journey</h3></div>
+       
+        <div class="form" >
+        <form>
+          
+        </form>
+        <label for="fname">Name:</label>
+        <input type="text" placeholder="Enter Your Name" ></input>
+        <label for="email">Email ID:</label>
+        <input type="text" placeholder="Enter Your Email"></input>
+        <label for="fname">Mobile Number:</label>
+        <input type="text" placeholder="Enter Your Mobile Number"></input>
+        <label for="text">Message:</label>
+        <input type="text" placeholder="Enter Your Message"></input>
+        <button type="submit">Submit</button>
+        
+        </div>
+        
+        <div className="contactusimage">
+           {/* <img src="./images/bg.jpg" alt="" /> */}
+              </div>
+
+             
+        </div>
+
+        </div>
+     
     
        )
        }

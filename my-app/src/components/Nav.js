@@ -15,13 +15,14 @@ function Nav() {
                     <a href="#coursename" >Course</a>
                     </li>
                     <li>
-                    <a href="#ourstudents" >Our Students</a>
+                    <a href="#testimonials" >Testimonials</a>
                     </li>
                     <li>
                     <a href="#contact" >Contact Us</a>
                     </li>
                 </ul>
             </nav>
+           
     )}
     
 

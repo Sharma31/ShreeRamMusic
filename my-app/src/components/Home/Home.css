@@ -30,21 +30,21 @@
 .about img {
  
  
-  height: 400px;
-  width:30%;
-  margin-left: 150px;
+  height: 300px;
+  width:23%;
+  margin-left: 260px;
   position: absolute;
-  margin-top: 470px;
+  margin-top: 460px;
   /* border-radius: 0 0 100% 100%/0 0 100% 100%; */
 
   }
 
   .about2 img {
-    height: 250px;
-  width:18%;
-  margin-left: 5px;
+    height: 190px;
+  width:12.1%;
+  margin-left: 120px;
   position: absolute;
-  margin-top: 570px;
+  margin-top: 515px;
   }
   /* .aboutbgcolor {
    background-color: #bd3300;
@@ -65,9 +65,9 @@
 
   .parah3 {
     height: 100px;
-    width: 800px;
-    margin-top: 450px;
-    margin-left: 700px;
+    width: 650px;
+    margin-top: 320px;
+    margin-left: 770px;
     color: #bd3300;
     
   }
@@ -91,13 +91,19 @@
    height: 10px;
    width: 300px;
    position: relative;
-   color: #131212;
+   color: #bd3300;
    margin-left: 60px;
-   margin-bottom: 300px;
+   margin-bottom: 340px;
+}
+
+.ourcourseheading{
+   color: #bd3300;
+   margin-left: 120px;
 }
 
 .coursename a {
-   color: #141313;
+   color: #bd3300;
+   
 }
 
 
@@ -120,7 +126,7 @@
    width: 300px;
    border-radius: 10px;
    box-shadow: #b1b1b1 3px 3px 15px;
-   margin-left: 30px;
+   margin-left: 121px;
  }
 
 .course1 img{
@@ -143,21 +149,24 @@
    width: 200px;
    height: 20px;
   margin-top: 300px;
+  color: #bd3300;
 }
 
 .coursecontent2 {
    width: 200px;
    height: 20px;
   margin-top: 300px;
+  color: #bd3300;
 }
 
 .coursecontent3 {
    width: 200px;
    height: 20px;
   margin-top: 300px;
+  color: #bd3300;
 }
 
-.ourstudentdetails {
+/* .ourstudentdetails {
   width: 400px;
   height: 60px;
 }
@@ -240,4 +249,139 @@
    box-shadow: #b1b1b1 5px 5px 10px;
    margin-top: -650px;
    margin-right: 250px;
+  } */
+
+.testimonialcontent {
+  color: #bd3300;
+  width: 400px;
+  margin-top: 350px;
+  position: absolute;
+  margin-left: 120px;
+}
+  .testimonialheading {
+    width: 30%;
+    color: #bd3300;
+    margin-left: 120px;
   }
+
+  .testimonialimage img{
+    height: 350px;
+    width: 30%;
+    margin-left: 120px;
+  }
+
+  .studentfeedbackimage1 img {
+    height: 130px;
+    width: 190px;
+    margin-left: 700px;
+    margin-top: -100px;
+   position: absolute;
+  }
+
+  .studentfeedback1 {
+      height: 100px;
+      width: 200x;
+      margin-left: 990px;
+      margin-top: -100px;
+      position: absolute;
+      color: #bd3300;
+  }
+
+  .studentfeedbackimage2 img {
+    height: 140px;
+    width: 190px;
+    margin-left: 700px;
+    margin-top:  70px;
+ position: absolute;
+ }
+
+ .studentfeedback2 {
+      height: 100px;
+      width: 200x;
+     margin-left: 990px;
+     margin-top: 100px;
+     position: absolute;
+     color: #bd3300;
+ }
+
+ .studentfeedbackimage3 img  {
+  height: 140px;
+  width: 190px;
+  margin-left: 700px;
+ margin-top:  250px;
+ position: absolute;
+}
+
+.studentfeedback3 {
+    height: 100px;
+    width: 200x;
+   margin-left: 990px;
+   margin-top: 300px;
+   color: #bd3300;
+}
+
+.contactheading{
+  padding-left: 40px;
+  color: #bd3300;
+  margin-top: 150px;
+
+  width: 90%;
+  height: 450px;
+}
+.form{
+  margin-top: -350px;
+  width: 50%;
+  height: 390px;
+  background-color: #bd3300;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+input[type=text],
+select,
+textarea,number {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #fbf7f5;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #f3efed;
+}
+.container {
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 15px;
+}
+button[type=submit]:hover {
+  background-color: #fff;
+}
+button[type=submit] {
+  background-color: #fff;
+  color: #bd3300;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.contactusimage{
+  height: 100px;
+  width: 100px ;
+  margin-top: -390px;
+  margin-left: 400px;
+  position: absolute;
+
+}
